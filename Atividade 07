@@ -1,0 +1,24 @@
+Funções de cada um
+
+Git:
+
+Controle de Versão Distribuído: O Git permite que você mantenha o controle de todas as versões do seu código, desde o momento em que você inicia um projeto até as alterações mais recentes. Ele é distribuído, o que significa que cada desenvolvedor tem uma cópia completa do repositório, o que facilita a colaboração em equipe.
+Rastreamento de Mudanças: Com o Git, você pode ver todas as alterações feitas em um projeto ao longo do tempo. Isso permite que você reverta para versões anteriores, compare diferenças entre versões e acompanhe quem fez quais alterações.
+Branching e Merging: O Git permite que você crie ramificações (branches) do seu código para trabalhar em novas funcionalidades ou correções de bugs sem afetar o código principal. Depois, você pode mesclar (merge) essas ramificações de volta ao código principal quando estiverem prontas.
+Flexibilidade: Você pode usar o Git com praticamente qualquer tipo de projeto, desde pequenos scripts até grandes aplicativos de software.
+
+GitHub:
+
+Hospedagem de Repositórios: O GitHub é uma plataforma de hospedagem de código que permite que você armazene seus repositórios Git na nuvem. Isso facilita o acesso ao seu código de qualquer lugar e permite a colaboração em equipe.
+Gestão de Projetos: O GitHub oferece recursos para gerenciar projetos, incluindo problemas (issues) para rastrear bugs e solicitações de novos recursos, bem como projetos para organizar e priorizar o trabalho da equipe.
+Colaboração: O GitHub facilita a colaboração em equipe, permitindo que os desenvolvedores revisem e discutam as alterações uns dos outros por meio de solicitações de pull (pull requests).
+Integração Contínua: Você pode integrar o GitHub com ferramentas de integração contínua, como Travis CI ou GitHub Actions, para automatizar tarefas como compilação, testes e implantação.
+
+Agora, os passos para postar seu projeto online usando o Git e o GitHub:
+
+Criar um Repositório: No GitHub, clique no botão "New" para criar um novo repositório. Você pode escolher um nome, uma descrição e definir as configurações do repositório.
+Inicializar o Repositório Localmente: No seu computador, navegue até o diretório do seu projeto e inicialize um repositório Git usando o comando git init.
+Adicionar e Comitar Arquivos: Use o comando git add para adicionar arquivos ao seu commit e o comando git commit para confirmar as mudanças no seu repositório local.
+Conectar o Repositório Remoto: No seu repositório local, adicione o URL do seu repositório remoto usando o comando git remote add origin <url_do_repositório>.
+Enviar Alterações para o GitHub: Use o comando git push -u origin master para enviar suas alterações para o repositório remoto no GitHub.
+Gerenciar Colaboração e Atualizações: Agora que seu projeto está online, você pode colaborar com outras pessoas, revisar e discutir alterações usando solicitações de pull, e continuar atualizando seu projeto conforme necessário.
